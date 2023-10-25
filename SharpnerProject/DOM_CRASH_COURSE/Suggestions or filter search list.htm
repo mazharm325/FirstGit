@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <title>suggestions or filter search list</title>
+</head>
+
+<body>
+    <header id="main-header" class="bg-success text white p-4 mb-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <h1 id="header-title">Item suggestions Listener</h1>
+                </div>
+                <div class="col-md-6 align-self-center">
+                    <input type="text" class="form-control" id="filter" placeholder="Search Items...">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div id="main" class="card card-body">
+            <h2 class="title">Add Items</h2>
+            <form id="addForm" class="form-inline mb-3">
+                <input type="text" class="form-control mr-2" id="item">
+                <input type="submit" calss="btn btm-dark" value="Submit">
+            </form>
+
+            <h2 class="title">Items</h2>
+            <ul id="items" class="list-group">
+                <li class="list-group-item">
+                    <a href="#">car</a>
+                    <button class="btn btn-danger btn-sm float-right delete">X</button>
+                    <button class="btn btn-primary btn-sm float-right delete">edit</button>
+                </li>
+                <li class="list-group-item">
+                    <a href="#">cart</a>
+                    <button class="btn btn-danger btn-sm float-right delete">X</button>
+                    <button class="btn btn-primary btn-sm float-right delete">edit</button>
+                </li>
+                <li class="list-group-item">
+                    <a href="#">crab</a>
+                    <button class="btn btn-danger btn-sm float-right delete">X</button>
+                    <button class="btn btn-primary btn-sm float-right delete">edit</button>
+                </li>
+                <li class="list-group-item">
+                    <a href="#">red</a>
+                    <button class="btn btn-danger btn-sm float-right delete">X</button>
+                    <button class="btn btn-primary btn-sm float-right delete">edit</button>
+                </li>
+                <li class="list-group-item">
+                    <a href="#">rat</a>
+                    <button class="btn btn-danger btn-sm float-right delete">X</button>
+                    <button class="btn btn-primary btn-sm float-right delete">edit</button>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="Suggestions or filter search list.js">
+        debugger;
+    </script>
+</body>
+
+</html>
+
+
+<!-- <html>
+
+<head>
+    <title>suggestions filter</title>
+
+</head>
+
+<body>
+    <header>
+        <h2>My Phonebook</h2>
+        <input type="text" id="contact" placeholder="Search for names..">
+    </header>
+
+    <h2>Contact List</h2>
+    <input type="text" id="myInput" placeholder="Search for names..">
+    <ul id="myUL">
+        <li><a href="#">Adele</a></li>
+        <li><a href="#">Agnes</a></li>
+
+        <li><a href="#">Billy</a></li>
+        <li><a href="#">Bob</a></li>
+
+        <li><a href="#">Calvin</a></li>
+        <li><a href="#">Christina</a></li>
+        <li><a href="#">Cindy</a></li>
+    </ul>
+</body>
+<script src="Suggestions or filter search list.js">
+</script>
+
+</html> -->
